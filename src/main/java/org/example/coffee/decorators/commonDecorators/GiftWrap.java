@@ -1,4 +1,4 @@
-package org.example.coffee.decorators;
+package org.example.coffee.decorators.commonDecorators;
 
 import org.example.coffee.Coffee;
 
@@ -11,6 +11,7 @@ public class GiftWrap extends CoffeeDecorator {
 
     @Override
     public int getCost() {
+        System.out.println("25 added");
         return wrappee.getCost() + 25;
     }
 }

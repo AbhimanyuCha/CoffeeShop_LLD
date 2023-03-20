@@ -9,6 +9,8 @@ public class Cinnamon extends HotCoffeeDecorator{
 
     @Override
     public int getCost() {
+        System.out.println("75 added");
+
         return this.wrappee.getCost() + 75;
     }
 }

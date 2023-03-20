@@ -1,4 +1,4 @@
-package org.example.coffee.decorators;
+package org.example.coffee.decorators.commonDecorators;
 
 import org.example.coffee.Coffee;
 

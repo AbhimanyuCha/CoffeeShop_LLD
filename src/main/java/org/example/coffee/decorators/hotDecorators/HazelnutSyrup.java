@@ -9,6 +9,8 @@ public class HazelnutSyrup extends HotCoffeeDecorator{
 
     @Override
     public int getCost() {
+        System.out.println("100 added");
+
         return this.wrappee.getCost() + 100;
     }
 }
